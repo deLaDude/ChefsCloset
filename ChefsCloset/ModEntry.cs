@@ -27,7 +27,7 @@ namespace ChefsCloset
 		private bool _isCookingSkillLoaded;
 
 		private bool IsCookingMenu(IClickableMenu menu) {
-			if (_farmHouse == null || _farmHouse.upgradeLevel == 1) {
+			if (_farmHouse == null || _farmHouse.upgradeLevel == 0) {
 				return false;
 			}
 
